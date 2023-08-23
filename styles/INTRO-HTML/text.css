@@ -1,0 +1,90 @@
+p{
+  font-family: Roboto;
+}
+.cat{
+  width:50px;
+  height:50px;
+object-fit:cover;
+object-position: center;
+  border-radius:100px;
+}
+
+.video-title
+{ 
+
+  font-weight:bold;
+  font-size:19px;
+  width: 300px;
+  line-height: 24px;
+  margin-bottom:5px;
+  
+
+
+}
+.video-stats{
+  font-size:14px;
+  color:gray;
+  margin-top:0;
+}
+.marc{
+  font-size:14px;
+  color:black;
+  margin-top:0;
+  margin-bottom: 20px;
+
+
+}
+.gun{
+  
+  font-size:14px;
+  color:black;
+  margin-top:0;
+margin-bottom:100px;
+}
+.apple{
+  margin-bottom: 50px;
+  font-size:14px;
+  background-color: red;
+  color:white;
+  text-align: center;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  
+}
+
+.span-shop:hover{
+  text-decoration:underline;
+}
+.span-shop{
+cursor: pointer;
+}
+.thank{
+  width:200px;
+
+  display: inline-block;
+  vertical-align: middle;
+}
+.but{
+  display:inline-block;
+  vertical-align: middle;
+}
+.b2{
+  display:inline-block;
+  vertical-align: middle;
+}
+.butn{
+  color:gray;
+  border-radius: 60px;
+  padding-left: 160px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-right: 160px;
+  border:none;
+  transition: background-color 0.15s;
+  cursor:pointer;
+  
+}
+.butn:hover{
+  box-shadow: 5px,5px,5px,rgba(0,0,0,0.15);
+
+}

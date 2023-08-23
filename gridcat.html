@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      cat
+    </title>
+    <style>
+      .grid{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap:10px;
+      
+      }
+      .profile{
+        width:240px;
+        box-shadow: 0 0 5px rgba(0,0,0,0.3);
+        vertical-align:top;
+        margin-right:15px;
+
+      }
+      .thumbnail{
+        font-size:18px;
+        font-weight:bold;
+        margin-left:8px;
+        margin-bottom:10px;
+
+      }
+      .mutual-frnds-row{
+        display:grid;
+        grid-template-columns: 35px 1fr;
+        align-items:center;
+        margin-left:8px;
+        margin-bottom:10px;
+
+      }
+      .mutual-frnds{
+        color:rgb(100,100,100);
+
+      }
+      .add-frn{
+
+        background-color: rgb(24,119,242);
+        color:white;
+        border:none;
+        padding-top:10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 4 px;
+        font-size:16px;
+        margin-left:8 px;
+        margin-bottom:10px;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="profile"> <img class="thumbnail" src="channel-pics/cat.jpg"><p>Oliver</p></div>
+      <div clas="mutual-frnds-row"><img class="thumbnail" src="channel-pics/cat.jpg"><p class="mutual-frnds">2 mtual friends</p>
+      <button class="add-frn">
+        Add friend
+      </button></div>
+      <div class="profile"> <img class="thumbnail" src="channel-pics/cat.jpg"><p>Mimi</p></div>
+      <div clas="mutual-frnds-row"><img class="thumbnail" src="channel-pics/cat.jpg"><p class="mutual-frnds">3 mtual friends</p>
+      <button class="add-frn">
+        Add friend
+      </button>
+    </div>
+      <div class="profile"> <img class="thumbnail" src="channel-pics/cat.jpg"><p>Jack</p></div>
+      <div clas="mutual-frnds-row"><img class="thumbnail" src="channel-pics/cat.jpg"><p class="mutual-frnds">4 mtual friends</p>
+      <button class="add-frn">
+        Add friend
+      </button></div>
+
+    </div>
+    
+  </body>
+</html>
